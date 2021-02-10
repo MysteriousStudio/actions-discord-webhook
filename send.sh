@@ -86,12 +86,12 @@ PAYLOAD_DATA=$(
 			"fields": [
 				{
 					"name": "Commit",
-					"value": "$COMMITTER_NAME",
+					"value": "$COMMIT_URL",
 					"inline": true
 				},
 								{
 					"name": "Commiter",
-					"value": "$COMMIT_URL",
+					"value": "$COMMITTER_NAME",
 					"inline": true
 				},
 				{
